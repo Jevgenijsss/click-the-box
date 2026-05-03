@@ -1,0 +1,20 @@
+body {
+    height: 100vh;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    width: 10rem;
+    height: 10rem;
+    background-color: #BFA28C;
+    border: 0.2rem solid #927662;
+}
+
+.box-text {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-size: 2rem;
+}
