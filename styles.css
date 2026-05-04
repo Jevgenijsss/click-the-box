@@ -1,5 +1,29 @@
 body {
     height: 100vh;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #CBCBCB;
+}
+
+header {
+    display: flex;
+}
+
+.game-title {
+    display: flex;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+.score-timer {
+    display: flex;
+    justify-content: flex-end;
+    width: 40%;
+}
+
+.score, .timer {
+    font-size: 1.5rem;
+    padding-right: 2rem;
 }
 
 #box {
@@ -13,8 +37,6 @@ body {
 }
 
 .box-text {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 800;
     font-size: 2rem;
 }
